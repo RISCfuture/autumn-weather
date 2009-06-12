@@ -1,0 +1,18 @@
+= Weather: An Autumn Leaf
+
+<b>Version 1.0 (Jun 12, 2009)</b>
+
+Author::    Tim Morgan (mailto:autumn@timothymorgan.info)
+Copyright:: Copyright (c)2009 Tim Morgan
+License::   Distributed under the same terms as Ruby.
+
+Provides a collection of useful commands for getting weather information over
+IRC.
+
+== Usage
+
+!weather [zip]:: Returns a textual description of the weather at a zip code.
+!metar [airport]:: Displays the current weather at an airport (by ICAO code) in
+                   coded METAR format.
+!taf [airport]:: Displays the forecasted weather at an airport (by ICAO code) in
+                 coded TAF format.

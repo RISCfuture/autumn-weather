@@ -1,0 +1,1 @@
+<%= var :city %>, <%= var :state %>: <%= var(:condition).capitalize %>, <%= var :temperature %> <%= var :units_temp %><% if var(:wind_speed) > 15 %> and windy<% end %>. (Valid from <%= time_ago_in_words var(:valid_time) %> ago)
